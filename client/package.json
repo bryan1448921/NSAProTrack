@@ -11,16 +11,24 @@
     "@testing-library/user-event": "^14.5.1",
     "@types/jest": "^29.5.11",
     "@types/node": "^20.10.5",
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.21.1",
     "react-scripts": "5.0.1",
+    "typescript": "4.9.5",
     "web-vitals": "^3.5.0"
   },
+  "resolutions": {
+    "typescript": "4.9.5"
+  },
+  "overrides": {
+    "typescript": "4.9.5"
+  },
   "scripts": {
-    "preinstall": "npm install --legacy-peer-deps",
     "start": "react-scripts start",
-    "build": "npm install --legacy-peer-deps && react-scripts build",
+    "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -41,10 +49,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "@types/react": "^19.1.6",
-    "@types/react-dom": "^19.1.6",
-    "typescript": "4.9.5"
   }
 }
